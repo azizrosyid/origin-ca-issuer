@@ -6,6 +6,7 @@ toolchain go1.21.5
 
 require (
 	github.com/cert-manager/cert-manager v1.9.2
+	github.com/cloudflare/cloudflare-go/v2 v2.1.0
 	github.com/go-logr/logr v1.4.1
 	github.com/go-logr/zerologr v1.2.1
 	github.com/google/go-cmp v0.6.0
@@ -60,6 +61,10 @@ require (
 	github.com/prometheus/common v0.45.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/spf13/cobra v1.7.0 // indirect
+	github.com/tidwall/gjson v1.14.4 // indirect
+	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/pretty v1.2.1 // indirect
+	github.com/tidwall/sjson v1.2.5 // indirect
 	golang.org/x/crypto v0.16.0 // indirect
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
 	golang.org/x/mod v0.14.0 // indirect
